@@ -1,48 +1,48 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230;Deep Learning segédlet
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230;Neurális hálók
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230;A neurális hálózatok a modelek egy olyan típusa, amelyek rétegek segítségével épülnek fel. Gyakran használt neurális hálózatok például a konvolúciós és rekurrens neurális hálók.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230;Architektúra ― A neurális hálózatok architektúrájához kapcsolódó szókincs az alábbi ábrán látható:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [Bemeneti réteg, rejtett réteg, kimeneti réteg]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230;Az i-edik réteget i-vel, míg a réteg j-edik rejtett egységét j-vel jelölve a következőt kapjuk:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230;ahol w, b, z jelöli rendre a súlyt (weight), az elhajlást (bias), és a kimenetet.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230;Aktivációs függvény ― Az aktivációs függvények a rejtett egységek végén használatosak, hogy nem-lineáris komplexitást vezessenek a modelbe. Íme a leggyakoribbak:
 
 <br>
 
