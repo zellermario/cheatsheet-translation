@@ -12,13 +12,13 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230; A neurális hálózatok a modelek egy olyan típusa, amelyek rétegek segítségével épülnek fel. Gyakran használt neurális hálózatok például a konvolúciós és rekurrens neurális hálók.
+&#10230; A neurális hálózatok rétegek segítségével felépített modelek. Gyakran használt neurális hálózatok például a konvolúciós és rekurrens neurális hálók.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Architektúra ― A neurális hálózatok architektúrájához kapcsolódó szókincs az alábbi ábrán látható:
+&#10230; Felépítés ― A neurális hálózatok felépítéséhez kapcsolódó kifejezések alább láthatóak:
 
 <br>
 
@@ -42,19 +42,19 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Aktivációs függvény ― Az aktivációs függvények a rejtett egységek végén használatosak, hogy nem-lineáris komplexitást vezessenek a modelbe. Íme a leggyakoribbak:
+&#10230; Aktivációs függvény ― Az aktivációs függvény egy rejtett egység végén használatos, hogy nem-lineáris komplexitást vezessenek be a modelbe. Íme a leggyakoribbak:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230; [Szigmoid, Hiperbolikus tangens, ReLU, Leaky ReLU]
+&#10230; [Szigmoid, Tanh, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230; Kereszt-entrópia veszteség (Cross-entropy loss) ― A neurális hálózatok kontextusávan, gyakran használt a kereszt-entrópia veszteség L(z,y), amely a következőképpen definiált:
+&#10230; Kereszt-entrópia veszteség (Cross-entropy loss) ― A neurális hálózatok kontextusában gyakran használt a kereszt-entrópia veszteség L(z,y), amely a következőképpen definiált:
 
 <br>
 
@@ -66,13 +66,13 @@
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230; Hiba-visszaterjesztés (backpropagation) ― A hiba-visszaterjesztés egy módszer a neurális hálózat súlyainak frissítésére a valódi és a kívánt kimenetek figyelembevételével. A w súly szerinti derivált a Leibniz-szabály segítségével számolható ki, és a következőképpen néz ki:
+&#10230; Hiba-visszaterjesztés (backpropagation) ― A hiba-visszaterjesztés egy módszer a neurális hálózat súlyainak frissítésére, a valódi és a kívánt kimenetek figyelembevételével. A súly (w) szerinti derivált a láncszabály segítségével számolható ki, és a következőképpen néz ki:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230; Ennek eredményeként, a súly a következőképpen frissül:
+&#10230; Ennek eredményeként, a súly a következőképpen íródik felül:
 
 <br>
 
