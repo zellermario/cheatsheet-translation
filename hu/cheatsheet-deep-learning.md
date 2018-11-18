@@ -1,24 +1,24 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;Deep Learning segédlet
+&#10230; Deep Learning segédlet
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;Neurális hálók
+&#10230; Neurális hálók
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;A neurális hálózatok a modelek egy olyan típusa, amelyek rétegek segítségével épülnek fel. Gyakran használt neurális hálózatok például a konvolúciós és rekurrens neurális hálók.
+&#10230; A neurális hálózatok a modelek egy olyan típusa, amelyek rétegek segítségével épülnek fel. Gyakran használt neurális hálózatok például a konvolúciós és rekurrens neurális hálók.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;Architektúra ― A neurális hálózatok architektúrájához kapcsolódó szókincs az alábbi ábrán látható:
+&#10230; Architektúra ― A neurális hálózatok architektúrájához kapcsolódó szókincs az alábbi ábrán látható:
 
 <br>
 
@@ -30,79 +30,79 @@
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;Az i-edik réteget i-vel, míg a réteg j-edik rejtett egységét j-vel jelölve a következőt kapjuk:
+&#10230; Az i-edik réteget i-vel, míg a réteg j-edik rejtett egységét j-vel jelölve a következőt kapjuk:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;ahol w, b, z jelöli rendre a súlyt (weight), az elhajlást (bias), és a kimenetet.
+&#10230; ahol w, b, z jelöli rendre a súlyt (weight), az elhajlást (bias), és a kimenetet.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;Aktivációs függvény ― Az aktivációs függvények a rejtett egységek végén használatosak, hogy nem-lineáris komplexitást vezessenek a modelbe. Íme a leggyakoribbak:
+&#10230; Aktivációs függvény ― Az aktivációs függvények a rejtett egységek végén használatosak, hogy nem-lineáris komplexitást vezessenek a modelbe. Íme a leggyakoribbak:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Szigmoid, Hiperbolikus tangens, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; Kereszt-entrópia veszteség (Cross-entropy loss) ― A neurális hálózatok kontextusávan, gyakran használt a kereszt-entrópia veszteség L(z,y), amely a következőképpen definiált:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; Tanulási ráta ― A tanulási ráta, melyet gyakran α-val, vagy η-vel jelölnek, azt jellemzi, hogy milyen ütemben frissülnek a súlyok. Ez lehet fix, vagy adaptívan változó érték is. A jelenleg legnépszerűbb módszert "Adam"-nek hívják, amely adaptívan változtatja a tanulási rátát.
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; Hiba-visszaterjesztés (backpropagation) ― A hiba-visszaterjesztés egy módszer a neurális hálózat súlyainak frissítésére a valódi és a kívánt kimenetek figyelembevételével. A w súly szerinti derivált a Leibniz-szabály segítségével számolható ki, és a következőképpen néz ki:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; Ennek eredményeként, a súly a következőképpen frissül:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; A súlyok frissítése ― Egy neurális hálózatban a következőképpen frissíthetjük a súlyokat:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; 1. lépés: Vegyünk egy adag tanulási adatot
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; 2. lépés: Előreterjesztéses (forward propagation) módszerrel határozzuk meg a hozzá tartozó hibát.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; 3. lépés: Hiba-visszaterjesztéssel határozzuk meg a gradienst.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; 4. lépés: A gradiensek használatával frissítsük a hálózathoz tartozó súlyokat.
 
 <br>
 
